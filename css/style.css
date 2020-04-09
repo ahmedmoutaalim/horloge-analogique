@@ -1,11 +1,13 @@
-/* Layout */
-.main {
+Layout
+ .main {
     display: flex;
     padding: 2em;
     height: 90vh;
     justify-content: center;
     align-items: middle;
 }
+
+
 
 .clockbox,
 #clock {
@@ -15,17 +17,17 @@
 /* Clock styles */
 .circle {
     fill: none;
-    stroke: #000;
+    stroke: black;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .mid-circle {
-    fill: #000;
+    fill:red;
 }
 .hour-marks {
     fill: none;
-    stroke: #000;
+    stroke: red;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
@@ -54,10 +56,9 @@
 /* Transparent box ensuring arms center properly. */
 .sizing-box {
     fill: none;
-}
+} 
 
-/* Make all arms rotate around the same center point. */
-/* Optional: Use transition for animation. */
+
 #hour,
 #minute,
 #second {
